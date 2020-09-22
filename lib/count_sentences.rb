@@ -19,7 +19,7 @@ end
   end
 
   def exclamation?
-if elf.end_with?("!")
+if self.end_with?("!")
   return true
 else
   return false
